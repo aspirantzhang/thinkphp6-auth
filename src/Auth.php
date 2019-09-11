@@ -8,7 +8,7 @@ use think\facade\Config;
 use think\facade\Request;
 use think\facade\Session;
 
-class TP6Auth
+class Auth
 {
     /**
      * @var object 对象实例
