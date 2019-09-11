@@ -1,7 +1,7 @@
 <?php
 declare (strict_types = 1);
 
-namespace namespace aspirantzhang\TP6Auth;
+namespace aspirantzhang\TP6Auth;
 
 use think\facade\Db;
 use think\facade\Config;
