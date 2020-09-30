@@ -142,7 +142,7 @@ class Auth
 
 
         // Get all user groups
-        $userGroups = $user->getAllRelationByField('id', 194, 'groups');
+        $userGroups = $user->getAllRelationByField('id', $admin_id, 'groups');
         $userGroupIds = extractValues($userGroups, 'id');
 
         // Get all group rules
