@@ -8,8 +8,8 @@ use think\facade\Db;
 use think\facade\Config;
 use think\facade\Request;
 use think\facade\Session;
-use app\backend\service\Admin;
-use app\backend\service\AuthGroup;
+use app\api\service\Admin;
+use app\api\service\AuthGroup;
 
 class Auth
 {
